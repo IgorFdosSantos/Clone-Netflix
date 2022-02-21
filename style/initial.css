@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Arial', Times, serif;
+    color: #FFF;
+}
+
+.logo h2{
+    margin-left: 8px;
+    font-size: 40px;
+    font-family: 'Arial Black', Times;
+    color: 	#1470DB;
+    transition: 3s ease;
+}
+
+.logo h2:hover{
+    transform:scale(0.5, 2);;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 18%;
+    margin-left: 32%;
+}
+
+
+
+.container a{
+    margin: 2%;
+    /*border: solid 1px white;*/
+    text-decoration: none;
+    color: #AAA;
+    font-size: 20px;
+
+}
+
+
+.container a:hover{
+    color: #FFF;
+    font-size: larger;
+}
+
+.container a img{
+    border: 2px outset white;
+    width: 12%;
+    background-color: #000;
+    transition: 3s ease-in-out;
+}
+
+.container img:hover{
+    width: 14%;
+    transform: rotate(360deg)
+}
+
+.container .img_netflix:hover{
+    border: inset #E50914 4px;
+    
+}
+
+.container .img_gamer:hover{
+    border: inset lime 4px;
+}
+
+.container .img_user:hover{
+    border: inset #1E90FF 4px;
+}

@@ -1,0 +1,136 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+/*Elementos Base*/
+body{
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: #FFF;
+}
+
+header .container{
+    /*border: 1px solid black;*/
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+
+header .exit{
+    font-size: x-large;
+    position: absolute;
+    left: 95%;
+    top: 22px;
+    transform: translate(-50%, -50%);
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 12px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+.exit:hover{
+    color: #E50914;
+}
+
+header .nav2 a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 12px;
+    
+}
+
+
+/*Main Show*/
+.main-show{
+    font-size: 16px;
+    background: url('../img/background.jpg');
+    background-color: linear-gradient(rgba(0,0,0,.50) rgba(0,0,0,.50));
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-show .overview{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.main-show .title{
+    margin-top: 5%;
+    font-size: 42px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFF;
+    padding: 15px 30px;
+    margin-left: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.button:hover{
+    background-color: #FFF;
+    color: #000
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.main-show .container{
+    width: 65%;
+}
+
+.box-filmes{
+    height:100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;    
+}
+
+
+.my-carousel{
+    margin-top: 6px;
+}
+
+.my-carousel h3{
+    margin-left: 1%;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 24px;
+}
