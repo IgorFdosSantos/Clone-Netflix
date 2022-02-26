@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Arial', Times, serif;
+    color: #FFF;
+}
+
+header .container{
+    /*border: 1px solid black;*/
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo{
+    font-size: 40px;
+    color: lime;
+}
+
+header ul{
+    position: absolute;
+    list-style: none;
+    display: inline-flex
+}
+
+header li{
+    list-style: none;
+    margin-left: 15%;
+}
+
+header li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #AAA
+}
+
+header li a:hover{
+    color: #FFF;
+}
+
+header .hidden{
+    display: none;
+    transition: 2s ease;
+}
+
+header ul li:hover .hidden{
+    display: block;
+    
+}
+
+header ul li:hover .hidden ul{
+    display: block;
+    margin-top: 1%;
+}
+
+header ul li:hover .hidden ul li{
+    /*border: 1px solid #FFF;*/
+    margin-top: 6%;
+    margin-left: 1%;
+    border-bottom: 1px dotted lime;
+    width: 120px;
+    padding: 3px;
+    text-align: left;
+    background-color: transparent;
+}
+
+
+header ul li:hover .hidden ul li a{
+    color: #AAA;
+}
+
+header ul li:hover .hidden ul li a:hover{
+    color: #FFF
+}
+
+header .exit{
+    font-size: x-large;
+    position: absolute;
+    left: 95%;
+    top: 22px;
+    transform: translate(-50%, -50%);
+    color: #AAA
+}
+
+.exit:hover{
+    color: lime;
+}
+
+.box-filmes{
+    height:100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    border-radius: 28%;
+}
+
+
+.teste{
+    margin-top: 2%;
+    margin-left: 8%;
+    width: 68%;
+    /*border: solid 1px #FFF;*/
+}
+
+.my-carousel{
+    display: flex;
+
+}
+
+.cards{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 15%;
+    /*border: solid 1px #FFF;*/
+}
+
+.cards a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #AAA;
+}
+
+.cards ul{
+    list-style: none;
+}
+
+.cards li{
+    list-style: none;
+    background-color: #1C1C1C;
+    width: 90%;
+    height: 95px;
+    margin-bottom: 12%;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 12%;
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+.cards li:hover{
+    background-color: #363636;
+    border: dotted #7CFC00 1px;
+    color: #FFF !important;
+}
+
+.cards li a:hover{
+    color: #FFF;
+}

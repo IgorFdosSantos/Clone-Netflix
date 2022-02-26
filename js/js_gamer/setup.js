@@ -1,8 +1,10 @@
-$('.owl-carousel').owlCarousel({
-    center: true,
-    loop:true,
+$('.owlCarousel').owlCarousel({
+    loop: false,
     margin:10,
     nav:false,
+    autoWidth: true,
+    URLhashListener:true,
+    startPosition: 'URLHash',
     animateOut: 'slideOutDown',
     animateIn:'flipInX',
     stagePadding: 30,
@@ -18,11 +20,4 @@ $('.owl-carousel').owlCarousel({
             items:6
         }
     }
-})
-
-$('.teste').owlCarousel({
-    autoWidth: true,
-    URLhashListener:true,
-    startPosition: 'URLHash',
-    center: true,    
 })
