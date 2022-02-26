@@ -22,7 +22,6 @@ $('.owl-carousel').owlCarousel({
 
 $('.teste').owlCarousel({
     autoWidth: true,
-    URLhashListener:true,
-    startPosition: 'URLHash',
-    center: true,    
+    center: true, 
+    nav: false,
 })

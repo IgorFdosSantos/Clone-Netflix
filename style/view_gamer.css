@@ -27,7 +27,8 @@ header .logo{
 header ul{
     position: absolute;
     list-style: none;
-    display: inline-flex
+    display: inline-flex;
+
 }
 
 header li{
@@ -42,6 +43,10 @@ header li a{
 }
 
 header li a:hover{
+    color: #FFF;
+}
+
+.active{
     color: #FFF;
 }
 
@@ -93,11 +98,30 @@ header .exit{
     color: lime;
 }
 
+.slogan{
+    /*border: solid #FFF 1px;*/
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.slogan h3{
+    /*border: solid #FFF 1px;*/
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 8%;
+    color: 	#6959CD;
+    font-size: 48px;
+    transition: 1s ease;
+}
+.slogan h3:hover{
+    color: #836FFF;
+}
+
 .box-filmes{
     height:100%;
     width: 100%;
     display: block;
-    cursor: pointer;
     border-radius: 28%;
 }
 
@@ -141,15 +165,178 @@ header .exit{
     text-align: center;
     padding-top: 12%;
     transition: 2s ease;
-    cursor: pointer;
 }
 
 .cards li:hover{
     background-color: #363636;
     border: dotted #7CFC00 1px;
-    color: #FFF !important;
 }
 
 .cards li a:hover{
     color: #FFF;
+}
+
+.slider{
+    width: 84%;
+    background-color: #1C1C1C;
+    margin-left: 8%;
+    border-radius: 6%;
+}
+
+.carousel-filmes{
+    /*border: solid 1px #FFF;*/
+    width: 86%;
+    margin-left: 7%;
+
+}
+
+.carousel-filmes .item{
+    height: 325px;
+    transition: 1s ease;
+}
+
+.carousel-filmes p{
+    display: none;
+}
+
+.carousel-filmes i{
+    display: none;
+}
+
+.carousel-filmes .item:hover{
+    width: 85%;
+    margin-left: 6%;
+    
+}
+
+.carousel-filmes .item:hover p{
+    display: block;
+    background-color: #363636;
+    border-radius: 5%;
+    border: dotted #7CFC00 1px;
+    margin-top: 1%;
+    font-size: 18px;
+    text-align: center;
+    height: 14%;
+}
+
+h4{
+    font-size: 24px;
+    margin: 1%
+}
+
+.cartaz{    
+    /*border: solid darkgreen 1px;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding: 1%;
+    background-color: #1C1C1C;
+    width: 95%;
+    border-radius: 6%;
+}
+
+.banners{
+    /*border: solid #FFF 1px;*/
+    display: flex;
+    flex-direction: row;    
+}
+
+.cartaz .banner img{
+    border: solid #AAA 2px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10%;
+    transition: 2s ease;
+}
+
+.cartaz .banner span{
+    display: none;
+    transition: 2s ease;
+}
+
+.cartaz .banner p{
+    display: none;
+    transition: 2s ease;
+}
+
+.cartaz .banner:hover{    
+    width: 75%;    
+    
+}
+
+.cartaz .banner img:hover{
+    border: inset #7CFC00 2px;
+}
+
+.cartaz .banner:hover span{
+    /*border: solid #FFF 1px;*/
+    display: block;
+    margin-top: 2%;
+    margin-left: 12%;
+    text-align: left;
+    font-size: 20px;
+    width: 88%;
+}
+
+.cartaz .banner:hover p{
+    /*border: solid #7CFC00 1px;*/
+    display: block;
+    margin-top: 2%;
+    margin-left: 16%;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.5;
+    color: #AAA;
+}
+
+.catalogo{
+    /*border: solid #FFF 1px;*/
+    margin-top: 5%;
+    margin-bottom: 4%;
+    display: flex;
+}
+
+.card{
+    /*border: solid #7CFC00 1px;*/
+    width: 45%;
+    margin-left: 12%;        
+}
+
+.catalogo .card img{
+    border-radius: 8%;
+    border: solid 2px #AAA;
+    transition: 2s ease;
+}
+
+.catalogo .card img:hover{
+    border-radius: 10%;
+    border: solid #7CFC00 2px;
+}
+
+.catalogo .comentario{
+    margin-left: 4%;
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+.catalogo .comentario button{
+    display: block;
+    margin-top: 8%;
+    margin-left: 8%;
+    background-color: #1C1C1C;
+    color: #AAA;
+    font-size: 26px;
+    width: 68%;
+    height: 18%;
+    border-radius: 10%;
+    border: solid 1px #AAA;
+    transition: 2s ease;
+}
+
+.catalogo .comentario button:hover{
+    background-color: #363636;
+    color: #FFF;
+    border: solid #7CFC00 1px;
 }

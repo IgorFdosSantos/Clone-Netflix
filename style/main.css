@@ -50,6 +50,10 @@ header nav a:hover{
     color: #FFF;
 }
 
+.active{
+    color: #FFF;
+}
+
 .exit:hover{
     color: #E50914;
 }
