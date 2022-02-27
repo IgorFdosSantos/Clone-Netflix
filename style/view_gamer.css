@@ -82,7 +82,7 @@ header ul li:hover .hidden ul li a{
 }
 
 header ul li:hover .hidden ul li a:hover{
-    color: #FFF
+    color: #FFF;
 }
 
 header .exit{

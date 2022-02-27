@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Arial', Times, serif;
+    color: #FFF;
+}
+
+header .container{
+    /*border: 1px solid black;*/
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo{
+    font-size: 40px;
+    color: #1E90FF;
+}
+
+header ul{
+    position: absolute;
+    list-style: none;
+    display: inline-flex;
+
+}
+
+header li{
+    list-style: none;
+    margin-left: 30%;
+}
+
+header li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #AAA
+}
+
+header li a:hover{
+    color: #FFF;
+}
+
+.active{
+    color: #FFF;
+}
+
+header .exit{
+    font-size: x-large;
+    position: absolute;
+    left: 95%;
+    top: 22px;
+    transform: translate(-50%, -50%);
+    color: #AAA
+}
+
+.exit:hover{
+    color: #1E90FF;
+}
+
+main{
+    /*border: solid #FFF 1px;*/
+    width: 45%;
+    height: 70%;
+    padding-top: 1%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background-color: #1C1C1C;
+}
+
+main img{    
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 35%;
+    border: solid 3px #1E90FF;
+}
+
+main .social-media{
+    /*border: solid #FFF 1px;*/
+    margin-top: 2%;
+    text-align: center;
+    font-size: xx-large;
+    transition: 1s ease;
+}
+
+main .social-media i{
+color: #0000CD
+}
+
+main .social-media i:hover{
+    color: #1E90FF;
+}
+
+.settings{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.settings ul{
+    margin-left: 40%;
+}
+
+.settings ul li{
+    margin-bottom: 3%;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
+    width: 35%;
+    height: 45px;
+    border-radius: 8%;
+    transition: 1s ease;
+}
+
+.settings ul li a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+.settings ul li:hover{
+    background-color: #363636;
+    border-bottom: outset #1E90FF 1px;
+}
+
+.settings ul li a:hover{
+    color: #FFF;
+}
